@@ -295,7 +295,9 @@ if(OF_VIDEO)
   list(APPEND OPENFRAMEWORKS_SOURCES
     "${OF_ROOT_DIR}/src/openframeworks/video/ofAVFoundationPlayer.mm"
     "${OF_ROOT_DIR}/src/openframeworks/video/ofAVFoundationVideoPlayer.m"
+    "${OF_ROOT_DIR}/src/openframeworks/video/ofAVFoundationGrabber.mm"
     "${OF_ROOT_DIR}/src/openframeworks/video/ofQTKitGrabber.mm"
+    "${OF_ROOT_DIR}/src/openframeworks/video/ofQTKitPlayer.mm"
   )
   elseif(CMAKE_SYSTEM MATCHES Windows)
   list(APPEND OPENFRAMEWORKS_SOURCES
